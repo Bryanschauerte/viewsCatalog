@@ -1,0 +1,222 @@
+.imageFadeDefault{
+  transition: all 1s;
+
+}
+.baseLPS{
+  cursor:pointer;
+  width:89%;
+  position: absolute;
+  bottom: 6%;
+  left: 5%;
+  font-family:Arial Black;
+  background-color:white;
+  transition: 700ms;
+}
+.LPSBase{
+  left:10%;
+}
+.moveBaseRight{
+left:100%;
+opacity: 1;
+
+}
+.moveBaseLeft{
+  left:-100%;
+
+  opacity: 1;
+}
+.bringBackBase{
+  opacity: 1;
+  left:10%;
+}
+.bringBackBaseStartRight{
+  opacity: 0;
+  left:100%;
+  transition: 0ms;
+}
+.bringBackBaseStartLeft{
+  opacity: 0;
+  right:100%;
+  transition: 0ms;
+}
+.bringBackBaseFinish{
+  transition: 700ms;
+  left:10%;
+  opacity:1
+}
+.rightClick{
+  cursor:pointer;
+  height:30px;
+  width:45px;
+  background-color:white;
+  opacity:.5;
+  position: absolute;
+  top:45%;
+  right:2%;
+  text-align: center;
+  padding:3%;
+}
+.leftClick{
+  cursor:pointer;
+  height:30px;
+  width:45px;
+  background-color:white;
+  opacity:.5;
+  position: absolute;
+  top:45%;
+  left:2%;
+  text-align: center;
+  padding:3%;
+}
+.lpsFakeLogo{
+  letter-spacing: -9px;
+  font-size: 17px;
+  text-align: center;
+  position: absolute;
+  top: 22%;
+  left: 22%;
+}
+.lpsImageContainer{
+  color:black;
+  background-color: white;
+  border-radius:100%;
+  position: absolute;
+  display: block;
+  z-index: 10;
+  transform: rotate(90deg);
+  transform-origin: 0px 0px 0px;
+}
+.lpsImageBase{
+  transition: 700ms;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 1;
+}
+.lpsImageFade{
+  transition: 700ms;
+  opacity: .5;
+}
+.lpsImageIncomming{
+  padding-left: 5%;
+  padding-right: 5%;
+  opacity:.8;
+}
+
+.lspLandingContain{
+  padding: 0% 2%;
+
+}
+.lpsDetailsImageDefault{
+  transition: 500ms;
+
+}
+.lpsDetailsImage{
+  transition: 500ms;
+  height:80%;
+  width: 90%;
+
+}
+.detailsImagePostR{
+  transition: 700ms;
+  height:80%;
+  width:90%;
+  margin-right: 5%;
+}
+
+.lpsDetails{
+
+  overflow-y: scroll;
+
+}
+.lpsdetailsInnerContainer{
+  padding:0% 5%;
+  position: absolute;
+
+
+}
+.lpsDetailsTop{
+  position: absolute;
+  width: 30%;
+  max-width: 0%;
+  right: -9%;
+  transition: 500ms;
+  line-height: 100%;
+  transform: rotate(90deg);
+  transform-origin: bottom;
+  text-align: center;
+  transition: 500ms;
+}
+.lpsDetailsTop h2{
+  margin:0;
+}
+.lpsDetailsTopPost{
+  position: absolute;
+  top:12.4%;
+  max-width: 100%;
+  width: 40%;
+  transition: 500ms;
+  z-index: 1;
+}
+.lpsDetailsText{
+  line-height: 100%;
+  width: 100%;
+  height:93%;
+  color:#fff;
+}
+
+.backBtn{
+  transition: all 500ms ease-in-out;
+  position: absolute;
+  top:10%;
+  left:10%;
+  text-align:center;
+  cursor: pointer;
+  width:10%;
+  font-weight: bolder;
+  font-size: 1.5em;
+  z-index: 1;
+
+
+
+}
+div.backBtn h3{
+  background-color:white;
+  margin: 0;
+}
+.fadeIn{
+  opacity: 1;
+}
+.lpsDetailsHeading{
+  color:white;
+  text-align: left;
+  position: absolute;
+  transition: 500ms;
+  overflow: hidden;
+  top: 60%;
+  left: 10%;
+  width: 80%;
+
+}
+
+div.lpsDetailsHeading h1{
+  transition: 500ms;
+  overflow: hidden;
+  max-width: 0%;
+  width:100%;
+  font-family:Arial white;
+  margin: 0;
+  font-size: 1.5em;
+}
+div.lpsDetailsHeading h2{
+  overflow: hidden;
+  transition: 700ms;
+  max-width: 0%;
+  transition-delay: 1000ms;
+  font-family:Arial white;
+  text-align: center;
+  width:95%;
+  margin: 0;
+  font-weight: inherit;
+}
